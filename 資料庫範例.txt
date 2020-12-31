@@ -1,0 +1,74 @@
+Database (DB)
+
+Relational (SQL) vs Non-Relational (NoSQL)
+
+relational
+RDBMS: MANAGEMENT SYSTEM
+
+MySQL
+SQLite
+PostgreSQL
+MariaDB
+SQL Server
+Oracle Database
+
+
+
+SQL  (Structured Query Language)(結構化查詢語言)
+
+C.R.U.D.
+create read/retreive update delete
+
+
+hybrid language:
+
+DQL (Data Query Language)
+DDL（Data Definition Language）
+DML（Data Manipulation Language）
+DCL（Data Control Language）
+
+
+
+schema design
+
+sailors
+
+sname       rating
+----------  ----------
+Brutus      1
+Andy        8
+Horatio     7
+Rusty       8
+Bob         1
+
+
+bname       color       rating
+----------  ----------  ----------
+SpeedQueen  white       9
+Interlake   red         8
+Marine      blue        7
+Bay         red         3
+
+days
+day
+----------
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+
+
+reservations
+
+sname       bname       day
+----------  ----------  ----------
+Andy        Interlake   Monday
+Andy        Bay         Wednesday
+Andy        Marine      Saturday
+Rusty       Bay         Sunday
+Rusty       Interlake   Wednesday
+Rusty       Marine      Wednesday
+Bob         Bay         Monday
